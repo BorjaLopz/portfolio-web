@@ -1,0 +1,59 @@
+.article_project {
+  width: 35rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.article_project img {
+  min-width: 100px;
+  max-width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  /* border: 1px solid rgba(0, 0, 0, 0.39); */
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.466);
+}
+
+.container_technologies {
+  display: flex;
+  gap: 1rem;
+}
+
+.button_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.github_icon {
+  font-size: 0;
+  content: url(github.svg);
+  width: 1.5rem;
+}
+
+.deploy_icon {
+  font-size: 0;
+  content: url(deploy.svg);
+  width: 1.5rem;
+}
+
+.github_icon:hover,
+.deploy_icon:hover {
+  transform: scale(1.5);
+  animation: animationPrueba 2s linear 2s infinite;
+}
+
+@keyframes animationPrueba {
+  from {
+    width: 1.5rem;
+  }
+
+  to {
+    width: 2rem;
+  }
+}
