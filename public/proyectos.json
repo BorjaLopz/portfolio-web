@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Generador de color",
+    "image": "GeneradorColores.png",
+    "technology": ["CSS", "HTML", "JavaScript"],
+    "github": "https://github.com/BorjaLopz/ColourGenerator",
+    "deploy": "https://colour-generator-borja.netlify.app/"
+  },
+
+  {
+    "id": 2,
+    "title": "Generador de color",
+    "image": "GeneradorColores.png",
+    "technology": ["CSS", "HTML", "JavaScript"],
+    "github": "https://github.com/BorjaLopz/ColourGenerator",
+    "deploy": "https://colour-generator-borja.netlify.app/"
+  },
+
+  {
+    "id": 3,
+    "title": "Generador de color",
+    "image": "GeneradorColores.png",
+    "technology": ["CSS", "HTML", "JavaScript"],
+    "github": "https://github.com/BorjaLopz/ColourGenerator",
+    "deploy": "https://colour-generator-borja.netlify.app/"
+  },
+
+  {
+    "id": 4,
+    "title": "Generador de color",
+    "image": "GeneradorColores.png",
+    "technology": ["CSS", "HTML", "JavaScript"],
+    "github": "https://github.com/BorjaLopz/ColourGenerator",
+    "deploy": "https://colour-generator-borja.netlify.app/"
+  },
+
+  {
+    "id": 5,
+    "title": "Generador de color",
+    "image": "GeneradorColores.png",
+    "technology": ["CSS", "HTML", "JavaScript"],
+    "github": "https://github.com/BorjaLopz/ColourGenerator",
+    "deploy": "https://colour-generator-borja.netlify.app/"
+  },
+
+  {
+    "id": 6,
+    "title": "Generador de color",
+    "image": "GeneradorColores.png",
+    "technology": ["CSS", "HTML", "JavaScript"],
+    "github": "https://github.com/BorjaLopz/ColourGenerator",
+    "deploy": "https://colour-generator-borja.netlify.app/"
+  }
+]
+
