@@ -33,6 +33,7 @@ main img {
 }
 
 .photo_container {
+  flex: 0 0 25%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,4 +45,31 @@ main img {
 
 .photo_container span {
   position: absolute;
+}
+
+.container article {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#name {
+  text-align: center;
+}
+
+#name h2 {
+  font-size: 3rem;
+}
+#name h3 {
+  font-size: 1.5rem;
+}
+
+#resumen {
+  width: 50%;
+}
+
+#resumen * {
+  margin: 1rem 0;
 }
