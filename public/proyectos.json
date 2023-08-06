@@ -5,52 +5,17 @@
     "image": "GeneradorColores.png",
     "technology": ["CSS", "HTML", "JavaScript"],
     "github": "https://github.com/BorjaLopz/ColourGenerator",
-    "deploy": "https://colour-generator-borja.netlify.app/"
+    "deploy": "https://borja-colour-generator.netlify.app/",
+    "description": "Esta aplicación te permite generar colores aleatorios y te muestra su codigo rgb y una muestra de color. Cuando encuentres el color que te encante, tan solo tendrás que pulsar el botón para copiar el código!"
   },
 
   {
     "id": 2,
-    "title": "Generador de color",
-    "image": "GeneradorColores.png",
-    "technology": ["CSS", "HTML", "JavaScript"],
-    "github": "https://github.com/BorjaLopz/ColourGenerator",
-    "deploy": "https://colour-generator-borja.netlify.app/"
-  },
-
-  {
-    "id": 3,
-    "title": "Generador de color",
-    "image": "GeneradorColores.png",
-    "technology": ["CSS", "HTML", "JavaScript"],
-    "github": "https://github.com/BorjaLopz/ColourGenerator",
-    "deploy": "https://colour-generator-borja.netlify.app/"
-  },
-
-  {
-    "id": 4,
-    "title": "Generador de color",
-    "image": "GeneradorColores.png",
-    "technology": ["CSS", "HTML", "JavaScript"],
-    "github": "https://github.com/BorjaLopz/ColourGenerator",
-    "deploy": "https://colour-generator-borja.netlify.app/"
-  },
-
-  {
-    "id": 5,
-    "title": "Generador de color",
-    "image": "GeneradorColores.png",
-    "technology": ["CSS", "HTML", "JavaScript"],
-    "github": "https://github.com/BorjaLopz/ColourGenerator",
-    "deploy": "https://colour-generator-borja.netlify.app/"
-  },
-
-  {
-    "id": 6,
-    "title": "Generador de color",
-    "image": "GeneradorColores.png",
-    "technology": ["CSS", "HTML", "JavaScript"],
-    "github": "https://github.com/BorjaLopz/ColourGenerator",
-    "deploy": "https://colour-generator-borja.netlify.app/"
+    "title": "Aplicación de metereología",
+    "image": "AplicaciónDeMetereología.png",
+    "technology": ["CSS", "HTML", "JavaScript", "API"],
+    "github": "https://github.com/BorjaLopz/fantastic-fiesta",
+    "deploy": "https://borja-meteoapp.netlify.app",
+    "description": "Esta aplicación te permite averiguar la predicción metereológica en tu ubicación para las próximas horas."
   }
 ]
-
