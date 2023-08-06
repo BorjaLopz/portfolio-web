@@ -45,7 +45,7 @@ function ProjectCard({ project }) {
             >
               Github
             </Link>
-            {currentProject.deploy !== "" && (
+            {currentProject.deploy  && (
               <Link
                 to={`${currentProject.deploy}`}
                 target="_blank"

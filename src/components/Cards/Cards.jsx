@@ -27,7 +27,7 @@ function Cards({ proyect }) {
           >
             Github
           </Link>
-          {proyect.deploy !== "" && (
+          {proyect.deploy  && (
             <Link
               to={`${proyect.deploy}`}
               target="_blank"
