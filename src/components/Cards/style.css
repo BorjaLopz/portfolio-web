@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap");
+
 .article_project {
   width: 35rem;
   border-radius: 1rem;
@@ -5,6 +7,7 @@
   flex-direction: column;
   gap: 1rem;
   align-items: center;
+  cursor: pointer;
 }
 
 .article_project img {
@@ -33,27 +36,54 @@
 .github_icon {
   font-size: 0;
   content: url(github.svg);
-  width: 1.5rem;
+  max-width: 1.5rem;
 }
 
 .deploy_icon {
   font-size: 0;
   content: url(deploy.svg);
-  width: 1.5rem;
+  max-width: 1.5rem;
 }
+
+/* Animaciones de los iconos del github y deploy*/
 
 .github_icon:hover,
 .deploy_icon:hover {
-  transform: scale(1.5);
-  animation: animationPrueba 2s linear 2s infinite;
+  animation: scaleAnimation 0.15s forwards;
 }
 
-@keyframes animationPrueba {
-  from {
-    width: 1.5rem;
-  }
+.github_icon,
+.deploy_icon {
+  transition: transform 0.15s ease-in-out;
+}
 
-  to {
-    width: 2rem;
+@keyframes scaleAnimation {
+  0% {
+    transform: scale(1.1);
   }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1.25);
+  }
+}
+
+header section {
+  max-width: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+header section p {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: lighter;
+  font-family: "Ropa Sans", sans-serif;
+}
+
+header section img {
+  width: 75px;
 }
