@@ -14,7 +14,6 @@ main img {
   height: 300px;
   width: 300px;
   object-fit: cover;
-  z-index: 999;
 }
 
 #photo_frame {
