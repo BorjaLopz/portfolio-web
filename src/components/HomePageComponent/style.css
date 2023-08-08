@@ -72,3 +72,17 @@ main img {
 #resumen * {
   margin: 1rem 0;
 }
+
+#resumen {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.container article {
+  gap: 3rem;
+}
+
+
