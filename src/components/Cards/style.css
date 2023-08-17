@@ -49,10 +49,21 @@
   max-width: 1.5rem;
 }
 
+.linkedin_icon {
+  font-size: 0;
+  content: url(linkedin.svg);
+  max-width: 1.5rem;
+}
+
+.email_icon {
+  font-size: 0;
+  content: url(email.svg);
+  max-width: 1.5rem;
+}
+
 /* Animaciones de los iconos del github y deploy*/
 
-.github_icon:hover,
-.deploy_icon:hover {
+.icon:hover {
   animation: scaleAnimation 0.15s forwards;
 }
 
