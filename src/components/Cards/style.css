@@ -61,6 +61,16 @@
   max-width: 1.5rem;
 }
 
+.github_large_icon {
+  font-size: 0;
+  content: url(github.svg);
+  max-width: 3rem;
+}
+
+.large_icon {
+  max-width: 3rem;
+}
+
 /* Animaciones de los iconos del github y deploy*/
 
 .icon:hover {
