@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import HomePage from "./Pages/HomePage";
 import Proyecto from "./Pages/Proyecto";
 import ProjectCard from "./components/ProjectCard/ProjectCard";
+import Contact from "./Pages/Contact";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/proyectos" element={<Proyecto />} />
-        <Route path="/contact" element={<p>contact!</p>} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/proyectos/:id" element={<ProjectCard />} />
         <Route path="/*" element={<p>404 - Pagina no encontrada</p>} />
       </Routes>
