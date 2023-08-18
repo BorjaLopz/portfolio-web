@@ -87,24 +87,24 @@ menu ul li:hover::after {
 }
 
 @media (max-width: 700px) {
-  
-  header  {
+  header {
     height: 14rem;
     display: flex;
     flex-direction: column;
   }
-
+  
   header section {
     position: absolute;
     top: 1rem;
   }
-
+  
   header nav {
     position: absolute;
     bottom: 0;
     height: 50%;
     width: 100%;
     align-self: flex-end;
+    min-width: 600px;
   }
 
   header nav menu ul li {
@@ -112,10 +112,10 @@ menu ul li:hover::after {
   }
 
   menu ul li::after {
-  width: 60%;
-  transform: scale(0);
-  height: 1px;
-  bottom: 40px;
-  left: 30px;
-}
+    width: 60%;
+    transform: scale(0);
+    height: 1px;
+    bottom: 40px;
+    left: 30px;
+  }
 }
