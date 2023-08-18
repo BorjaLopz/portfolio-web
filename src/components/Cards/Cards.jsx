@@ -23,7 +23,7 @@ function Cards({ proyect }) {
           <Link
             to={`${proyect.github}`}
             target="_blank"
-            className="github_icon"
+            className="github_icon icon"
           >
             Github
           </Link>
@@ -31,7 +31,7 @@ function Cards({ proyect }) {
             <Link
               to={`${proyect.deploy}`}
               target="_blank"
-              className="deploy_icon"
+              className="deploy_icon icon"
             >
               Deploy
             </Link>

@@ -18,5 +18,12 @@
     "name": "Email",
     "url": "borja.lpzdz5@gmail.com",
     "icon": "email_icon"
+  },
+
+  {
+    "id": 4,
+    "name": "Buy me a beer",
+    "url": "https://www.buymeacoffee.com/BorjaLopz",
+    "icon": "BuyMeABeer_Icon"
   }
 ]
