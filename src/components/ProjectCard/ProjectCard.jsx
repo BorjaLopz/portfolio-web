@@ -41,15 +41,15 @@ function ProjectCard({ project }) {
             <Link
               to={`${currentProject.github}`}
               target="_blank"
-              className="github_icon"
+              className="github_icon icon"
             >
               Github
             </Link>
-            {currentProject.deploy  && (
+            {currentProject.deploy && (
               <Link
                 to={`${currentProject.deploy}`}
                 target="_blank"
-                className="deploy_icon"
+                className="deploy_icon icon"
               >
                 Deploy
               </Link>
