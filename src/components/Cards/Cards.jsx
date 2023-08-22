@@ -25,15 +25,15 @@ function Cards({ proyect }) {
             target="_blank"
             className="github_icon icon"
           >
-            Github
+            <img src={`github.png`} alt={`github icono`} />
           </Link>
-          {proyect.deploy  && (
+          {proyect.deploy && (
             <Link
               to={`${proyect.deploy}`}
               target="_blank"
               className="deploy_icon icon"
             >
-              Deploy
+              <img src="deploy.png" alt="deploy icono" />
             </Link>
           )}
         </section>
