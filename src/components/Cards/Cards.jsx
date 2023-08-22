@@ -18,12 +18,16 @@ function Cards({ proyect }) {
             );
           })}
         </section>
-        <img src={`${proyect.image}`} alt={`Imagen de ${proyect.title}`} />
+        <img
+          src={`${proyect.image}`}
+          alt={`Imagen de ${proyect.title}`}
+          className="imagen_proyecto"
+        />
         <section className="button_container">
           <Link
             to={`${proyect.github}`}
             target="_blank"
-            className="github_icon icon"
+            className={`icon pequeño`}
           >
             <img src={`github.png`} alt={`github icono`} />
           </Link>
@@ -31,9 +35,9 @@ function Cards({ proyect }) {
             <Link
               to={`${proyect.deploy}`}
               target="_blank"
-              className="deploy_icon icon"
+              className={`icon pequeño`}
             >
-              <img src="deploy.png" alt="deploy icono" />
+              <img src={`deploy.png`} alt={`deploy icono`} />
             </Link>
           )}
         </section>

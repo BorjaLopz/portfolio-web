@@ -31,6 +31,7 @@ function ProjectCard({ project }) {
           <img
             src={`../${currentProject.image}`}
             alt={`Imagen del proyecto ${currentProject.title}`}
+            className="main_project_img"
           />
 
           <section className="description">
@@ -41,17 +42,17 @@ function ProjectCard({ project }) {
             <Link
               to={`${currentProject.github}`}
               target="_blank"
-              className="github_icon icon"
+              className={`icon pequeño`}
             >
-              Github
+              <img src="../../github.png" alt="" />
             </Link>
             {currentProject.deploy && (
               <Link
                 to={`${currentProject.deploy}`}
                 target="_blank"
-                className="deploy_icon icon"
+                className={`icon pequeño`}
               >
-                Deploy
+                <img src="../../deploy.png" alt="" />
               </Link>
             )}
           </section>

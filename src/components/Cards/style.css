@@ -18,7 +18,7 @@
     1 100%;
 }
 
-.article_project img {
+.article_project .imagen_proyecto {
   min-width: 100px;
   max-width: 350px;
   height: 350px;
@@ -47,6 +47,11 @@
 
 .icon {
   max-width: 3rem;
+}
+
+.pequeño img{
+  max-width: 2.5rem;
+  max-height: 2.5rem;
 }
 
 .icon > img {
@@ -83,7 +88,6 @@
   font-size: 0;
   content: url(BuyMeABeer_Icon.svg);
 }
-
 
 /* Animaciones de los iconos del github y deploy*/
 
