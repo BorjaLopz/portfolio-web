@@ -18,9 +18,7 @@ function HomePageComponente() {
             <h3>Programador Full Stack</h3>
           </section>
           <section id="resumen">
-            <p>
-              ¡Hola! Soy Borja López Díaz, desarrollador full-stack en proceso.
-            </p>
+            <p>¡Hola! Soy Borja López Díaz, desarrollador full-stack.</p>
             <p>
               Mis principales TECH SKILLS son HTML5, CSS3, JavaScript, MySQL,
               NodeJS, React, Python y C++. También me gusta el diseño y suelo

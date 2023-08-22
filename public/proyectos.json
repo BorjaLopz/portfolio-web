@@ -34,5 +34,13 @@
     "technology": ["JavaScript", "Node.js", "React", "MySQL"],
     "github": "https://github.com/BorjaLopz/beers",
     "description": "Web de cervezas en la cual podras ver todas y cada una de ellas, filtrar por país, estilo, graduación e incluso añadir una nueva entrada a la base de datos."
+  },
+  {
+    "id": 5,
+    "title": "Real Time Chat",
+    "image": "Real_Time_Chat.png",
+    "technology": ["JavaScript", "CSS", "HTML"],
+    "github": "https://github.com/BorjaLopz/Real-Time-Chat",
+    "description": "Web de cervezas en la cual podras ver todas y cada una de ellas, filtrar por país, estilo, graduación e incluso añadir una nueva entrada a la base de datos."
   }
 ]
