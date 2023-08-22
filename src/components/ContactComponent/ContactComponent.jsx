@@ -123,11 +123,9 @@ function ContactComponent() {
             return (
               <li key={r.id}>
                 {r.name !== "Email" ? (
-                  <Link
-                    to={`${r.url}`}
-                    target="_blank"
-                    className={`${r.icon} large_icon icon`}
-                  ></Link>
+                  <Link to={`${r.url}`} target="_blank" className={`icon`}>
+                    <img src="deploy.svg" alt="" />
+                  </Link>
                 ) : (
                   <a href={`mailto:${r.url}`}>
                     <div className={`${r.icon} large_icon icon`}></div>
