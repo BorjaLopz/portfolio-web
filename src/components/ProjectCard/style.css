@@ -1,4 +1,4 @@
-main article img {
+main article .main_project_img {
   min-width: 100px;
   max-width: 350px;
   height: 350px;
