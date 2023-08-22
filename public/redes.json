@@ -3,14 +3,14 @@
     "id": 1,
     "name": "Github",
     "url": "https://github.com/BorjaLopz",
-    "icon": "github_large_icon"
+    "icon": "github"
   },
 
   {
     "id": 2,
     "name": "LinkedIn",
     "url": "https://www.linkedin.com/in/borjalopezdiaz/",
-    "icon": "linkedin_icon"
+    "icon": "linkedin"
   },
 
   {
