@@ -45,45 +45,45 @@
   gap: 4rem;
 }
 
+.icon {
+  max-width: 3rem;
+}
+
+.icon > img {
+  width: 3rem;
+  height: 3rem;
+}
+
 .github_icon {
   font-size: 0;
   content: url(github.svg);
-  max-width: 1.5rem;
 }
 
 .deploy_icon {
   font-size: 0;
   content: url(deploy.svg);
-  max-width: 1.5rem;
 }
 
 .linkedin_icon {
   font-size: 0;
   content: url(linkedin.svg);
-  max-width: 1.5rem;
 }
 
 .email_icon {
   font-size: 0;
   content: url(email.svg);
-  max-width: 1.5rem;
 }
 
 .github_large_icon {
   font-size: 0;
   content: url(github.svg);
-  max-width: 3rem;
 }
 
 .BuyMeABeer_Icon {
   font-size: 0;
   content: url(BuyMeABeer_Icon.svg);
-  max-width: 3rem;
 }
 
-.large_icon {
-  max-width: 3rem;
-}
 
 /* Animaciones de los iconos del github y deploy*/
 
