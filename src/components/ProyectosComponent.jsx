@@ -1,4 +1,4 @@
-import proyectos from "../../public/proyectos.json";
+import proyectos from "/src/proyectos.json";
 import ProyectsCards from "./Projects/Proyects";
 
 function ProyectosComponent() {

@@ -5,7 +5,7 @@ import "./style.css";
 function Proyects({ list }) {
   return (
     <>
-      <ul>
+      <ul id="listado-proyectos">
         {list.map((p) => {
           return (
             <li key={p.id}>

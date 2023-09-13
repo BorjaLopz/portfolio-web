@@ -56,6 +56,10 @@ main img {
 
 #name {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
 }
 
 #name h2 {
