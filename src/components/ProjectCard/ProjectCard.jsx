@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import proyectos from "../../../public/proyectos.json";
+import proyectos from "/src/proyectos.json";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./style.css";

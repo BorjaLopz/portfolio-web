@@ -2,7 +2,7 @@ import React, { useState, useRef } from "react";
 import "./style.css";
 import emailjs from "@emailjs/browser";
 import { Link } from "react-router-dom";
-import redes from "../../../public/redes.json";
+import redes from "/src/redes.json";
 import toast from "react-hot-toast";
 
 function ContactComponent() {
@@ -55,7 +55,7 @@ function ContactComponent() {
 
   return (
     <>
-      <h2>
+      <h2 id="header-contact">
         Podrás ponerte en contacto conmigo rellenando el siguiente formulario o
         visitando mis redes un poco más abajo
       </h2>
@@ -116,9 +116,9 @@ function ContactComponent() {
         </form>
       </fieldset>
 
-      <section className="redes">
+      <section className="redes-container">
         <p>También puedes visitar mis redes</p>
-        <ul>
+        <ul className="redes">
           {redes.map((r) => {
             return (
               <li key={r.id}>
