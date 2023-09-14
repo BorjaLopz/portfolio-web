@@ -9,36 +9,16 @@ function SideCardProject({ data }) {
 
   const handleClick = (d) => {
     setElementoSeleccionado(d);
+    document.main.classList.add("no-scroll");
   };
 
   const handleClose = () => {
     setElementoSeleccionado(null);
+    document.main.classList.remove("no-scroll");
   };
 
   return (
     <>
-      {/* <section
-        id={`showcase-area ${elementoSeleccionado !== null ? "active" : ""} `}
-      >
-        <div id="escape-button">
-          <button onClick={() => setElementoSeleccionado(null)}>X</button>
-        </div>
-        <div id="showcase">
-          <article>
-            {elementoSeleccionado?.file === "image" ? (
-              <img
-                src={`${elementoSeleccionado?.file_name}`}
-                className="image"
-              />
-            ) : (
-              <p>No soy imagen</p>
-            )}
-            <div id="text">
-              <h3>{elementoSeleccionado?.title}</h3>
-            </div>
-          </article>
-        </div>
-      </section> */}
       <section id="projects-area">
         {data.map((d) => {
           return (

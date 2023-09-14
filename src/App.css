@@ -18,6 +18,10 @@ main {
   justify-content: center;
 }
 
-.software_name *{
+.software_name * {
   text-transform: uppercase;
+}
+
+.no-scroll {
+  overflow: hidden;
 }
