@@ -5,7 +5,7 @@ main article .main_project_img {
   object-fit: cover;
   border-radius: 0.5rem;
   /* border: 1px solid rgba(0, 0, 0, 0.39); */
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.466);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.466);
 }
 
 .github_icon,
