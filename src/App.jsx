@@ -10,7 +10,6 @@ import Contact from "./Pages/Contact";
 import SideProjects from "./Pages/SideProjects";
 import Footer from "./Pages/Footer";
 import SideProjectsSoftware from "./Pages/SideProjectSoftware";
-import CurrentSideProjectComponent from "./components/CurrentSideProjectComponent/CurrentSideProjectComponent";
 
 function App() {
   return (
@@ -25,10 +24,7 @@ function App() {
           path="/sideprojects/:software"
           element={<SideProjectsSoftware />}
         />
-        <Route
-          path="/sideprojects/:software/:title"
-          element={<CurrentSideProjectComponent />}
-        />
+
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects/:id" element={<ProjectCard />} />
         <Route path="/*" element={<p>404 - Pagina no encontrada</p>} />
