@@ -15,8 +15,8 @@
   max-width: 25rem;
   min-width: 25rem;
 
-  justify-content: flex-end; 
-  border: 1px solid #ccc; 
+  justify-content: flex-end;
+  border: 1px solid #ccc;
   border-radius: 8px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.329);
   position: relative;
@@ -30,23 +30,23 @@
 
 #text {
   flex: 10;
-  margin-top: auto; 
-  text-align: center; 
+  margin-top: auto;
+  text-align: center;
   padding: 10px;
 }
 
 .image {
   flex: 90;
-  width: fit-content; 
-  height: fit-content; 
+  width: fit-content;
+  height: fit-content;
   padding: 2rem 0;
   /* margin-bottom: auto; */
-  align-self: center; 
+  align-self: center;
 
   /* justify-self: center; */
   max-width: 80%;
   max-height: 80%;
-  object-fit: cover; 
+  object-fit: cover;
   align-self: center;
 }
 
@@ -64,4 +64,21 @@
   justify-content: center;
   z-index: 999; /* Asegura que esté por encima de todos los demás elementos */
   color: white;
+}
+
+#showcase-area {
+}
+
+#projects-area #showcase-area #active {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(2px); /* Efecto de desenfoque */
 }

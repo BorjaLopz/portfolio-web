@@ -1,11 +1,11 @@
-.overlay {
+.expanded-article {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
-  backdrop-filter: blur(5px); /* Efecto de desenfoque */
+  background-color: rgba(0, 0, 0, 0.4); /* Fondo semitransparente */
+  backdrop-filter: blur(2px); /* Efecto de desenfoque */
   display: flex;
   align-items: center;
   justify-content: center;
