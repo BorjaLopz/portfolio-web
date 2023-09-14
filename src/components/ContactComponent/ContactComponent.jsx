@@ -124,11 +124,11 @@ function ContactComponent() {
               <li key={r.id}>
                 {r.name !== "Email" ? (
                   <Link to={`${r.url}`} target="_blank" className={`icon`}>
-                    <img src={`${r.icon}.png`} alt={`${r.name}`} />
+                    <img src={`/icons/${r.icon}.png`} alt={`${r.name}`} />
                   </Link>
                 ) : (
                   <a href={`mailto:${r.url}`} className="icon">
-                    <img src={`${r.icon}.png`} alt={`${r.name}`} />
+                    <img src={`/icons/${r.icon}.png`} alt={`${r.name}`} />
                   </a>
                 )}
               </li>

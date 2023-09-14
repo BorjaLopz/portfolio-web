@@ -6,7 +6,7 @@ function Header() {
     <header>
       <section id="icon-section">
         <NavLink to="/">
-          <img src="favicon.svg" alt="favicon de mi portfolio" />
+          <img src="/icons/favicon.svg" alt="favicon de mi portfolio" />
           <p>Portfolio de Borja</p>
         </NavLink>
       </section>
@@ -20,7 +20,7 @@ function Header() {
               <NavLink to="/projects">proyectos</NavLink>
             </li>
             <li className="animation">
-              <NavLink to="/sideprojects">side projects</NavLink>
+              <NavLink to="/sideprojects">proyectos laterales</NavLink>
             </li>
             <li className="animation">
               <NavLink to="/contact">Contáctame</NavLink>

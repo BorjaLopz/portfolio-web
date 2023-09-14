@@ -6,7 +6,7 @@ function HomePageComponente() {
       <div className="container">
         <section className="photo_container">
           <img
-            src="Foto_Borja.jpg"
+            src="/icons/Foto_Borja.jpg"
             alt="Foto de Borja López Díaz"
             width={150}
           />
