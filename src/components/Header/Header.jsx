@@ -14,7 +14,7 @@ function Header() {
         <menu>
           <ul>
             <li className="animation">
-              <NavLink to="/">Home</NavLink>
+              <NavLink to="/">Inicio</NavLink>
             </li>
             <li className="animation">
               <NavLink to="/projects">proyectos</NavLink>
