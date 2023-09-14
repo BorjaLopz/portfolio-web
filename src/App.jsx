@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
-import "./app.css";
+import "./App.css";
 
 import Header from "./components/Header/Header";
 import HomePage from "./Pages/HomePage";
