@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "./style.css";
-import sideProjects from "/src/sideProjects.json";
+import sideProjects from "../../sideprojects.json";
 
 function SideProjectsComponent() {
   return (
