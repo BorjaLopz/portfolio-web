@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import sideProjects from "/src/sideProjects.json";
+import sideProjects from "../sideprojects.json";
 import SideCardProject from "../components/SideProjectsCard/SideProjectCard";
 
 function SideProjectsSoftware() {
