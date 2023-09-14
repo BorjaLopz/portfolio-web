@@ -31,7 +31,7 @@ function Cards({ proyect }) {
             target="_blank"
             className={`icon pequeño`}
           >
-            <img src={`github.png`} alt={`github icono`} />
+            <img src={`/icons/github.png`} alt={`github icono`} />
           </Link>
           {proyect.deploy && (
             <Link
@@ -39,7 +39,7 @@ function Cards({ proyect }) {
               target="_blank"
               className={`icon pequeño`}
             >
-              <img src={`deploy.png`} alt={`deploy icono`} />
+              <img src={`/icons/deploy.png`} alt={`deploy icono`} />
             </Link>
           )}
         </section>

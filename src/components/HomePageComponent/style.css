@@ -9,7 +9,7 @@
   align-items: center;
 }
 
-main img {
+.photo_container img {
   border-radius: 50%;
   height: 300px;
   width: 300px;

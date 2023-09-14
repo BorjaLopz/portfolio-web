@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Generador de color",
-    "image": "GeneradorColores.png",
+    "image": "/images/GeneradorColores.png",
     "technology": ["CSS", "HTML", "JavaScript"],
     "github": "https://github.com/BorjaLopz/ColourGenerator",
     "deploy": "https://borja-colour-generator.netlify.app/",
@@ -12,7 +12,7 @@
   {
     "id": 2,
     "title": "Aplicación de metereología",
-    "image": "AplicaciónDeMetereología.png",
+    "image": "/images/AplicaciónDeMetereología.png",
     "technology": ["CSS", "HTML", "JavaScript", "API"],
     "github": "https://github.com/BorjaLopz/fantastic-fiesta",
     "deploy": "https://borja-meteoapp.netlify.app",
@@ -22,7 +22,7 @@
   {
     "id": 3,
     "title": "Skillverse",
-    "image": "Skillverse_test.png",
+    "image": "/images/Skillverse_test.png",
     "technology": ["JavaScript", "Node.js", "React", "MySQL"],
     "github": "https://github.com/BorjaLopz/SkillVerse",
     "description": "Web donde personas que necesiten algún servicio digital puedan pedir ayuda a otros usuarios. Por ejemplo: traducir un texto, editar una foto, revisar un documento, etc. Solo necesidades que puedan realizarse mediante un fichero digital."
@@ -30,7 +30,7 @@
   {
     "id": 4,
     "title": "UniBeerse",
-    "image": "UniBeerse_test.png",
+    "image": "/images/UniBeerse_test.png",
     "technology": ["JavaScript", "Node.js", "React", "MySQL"],
     "github": "https://github.com/BorjaLopz/uniBeerse",
     "description": "Web de cervezas en la cual podras ver todas y cada una de ellas, filtrar por país, estilo, graduación e incluso añadir una nueva entrada a la base de datos."
@@ -38,7 +38,7 @@
   {
     "id": 5,
     "title": "Real Time Chat",
-    "image": "Real_Time_Chat.png",
+    "image": "/images/Real_Time_Chat.png",
     "technology": ["JavaScript", "CSS", "HTML"],
     "github": "https://github.com/BorjaLopz/Real-Time-Chat",
     "description": "Mini proyecto aprendiendo web sockets. "

@@ -1,8 +1,9 @@
+import SideProjectsComponent from "../components/SideProjectsComponent/SideProjectComponent";
 function SideProjects() {
   return (
     <>
       <main>
-        <p>Side Projects</p>
+        <SideProjectsComponent />
       </main>
     </>
   );
