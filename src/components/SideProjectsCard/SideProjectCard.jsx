@@ -3,35 +3,36 @@ import CurrentSideProjectComponent from "../ExpandedProjectComponent/ExpandedPro
 import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
 import ExpandedProjectComponent from "../ExpandedProjectComponent/ExpandedProjectComponent";
+import { TYPE_OF_FILE, getKeyByValue } from "../../helpers";
 
 function SideCardProject({ data }) {
   const [elementoSeleccionado, setElementoSeleccionado] = useState(null);
 
   const handleClick = (d) => {
     setElementoSeleccionado(d);
-    document.main.classList.add("no-scroll");
   };
 
   const handleClose = () => {
     setElementoSeleccionado(null);
-    document.main.classList.remove("no-scroll");
   };
 
   return (
     <>
-      <section id="projects-area">
+      <section class="projects-area">
         {data.map((d) => {
           return (
             // <Link to={`../${location.pathname}/${d.title}`}>
             <article
               key={`${d.id}`}
               onClick={() => handleClick(d)}
+              class="container-photo-text"
               // className={`${d.id === elementoSeleccionado ? "activado" : ""}`}
             >
-              {d.file === "image" ? (
+              {getKeyByValue(TYPE_OF_FILE, d.file.toUpperCase()) ===
+              "IMAGE" ? (
                 <img src={`${d.file_name}`} className="image" />
               ) : (
-                <p>No soy imagen</p>
+                <video src={`${d.file_name}`} className="video" poster={`${d.cover}`}></video>
               )}
               <div id="text">
                 <h3>{d.title}</h3>
