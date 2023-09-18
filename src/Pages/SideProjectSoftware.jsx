@@ -7,14 +7,16 @@ function SideProjectsSoftware() {
   return (
     <>
       <main>
-        <div className="software_name">
-          <h2>{software}</h2>
-        </div>
-        {sideProjects.map((s) => {
-          if (s.software === software) {
-            return <SideCardProject data={s.data} />;
-          }
-        })}
+        <section id="software_container">
+          <div className="software_name">
+            <h2>{software}</h2>
+          </div>
+          {sideProjects.map((s) => {
+            if (s.software === software) {
+              return <SideCardProject data={s.data} />;
+            }
+          })}
+        </section>
       </main>
     </>
   );

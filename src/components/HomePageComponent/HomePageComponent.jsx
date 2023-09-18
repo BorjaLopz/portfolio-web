@@ -20,10 +20,19 @@ function HomePageComponente() {
           <section id="resumen">
             <p>¡Hola! Soy Borja López Díaz, desarrollador full-stack.</p>
             <p>
-              Mis principales TECH SKILLS son HTML5, CSS3, JavaScript, MySQL,
-              NodeJS, React, Python y C++. También me gusta el diseño y suelo
-              trabajar con adobe Illustrator, adobe Photoshop y adobe
-              AfterEffects.
+              Mis principales TECH SKILLS son{" "}
+              <span className="important">HTML5</span>,{" "}
+              <span className="important">CSS3</span>,{" "}
+              <span className="important">JavaScript</span>,{" "}
+              <span className="important">MySQL</span>,
+              <span className="important">NodeJS</span>,{" "}
+              <span className="important">React</span>,{" "}
+              <span className="important">Python</span> y{" "}
+              <span className="important">C++</span>. También me gusta el diseño
+              y suelo trabajar con adobe{" "}
+              <span className="important">Illustrator</span>, {" "}
+              <span className="important">Photoshop</span> y {" "}
+              <span className="important">After Effects</span>.
             </p>
             <p>
               Me considero una persona empática, con mucha facilidad para

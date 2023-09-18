@@ -44,7 +44,7 @@ function ProjectCard({ project }) {
               target="_blank"
               className={`icon pequeño`}
             >
-              <img src="../../github.png" alt="" />
+              <img src="/icons/github.png" alt="" />
             </Link>
             {currentProject.deploy && (
               <Link
@@ -52,7 +52,7 @@ function ProjectCard({ project }) {
                 target="_blank"
                 className={`icon pequeño`}
               >
-                <img src="../../deploy.png" alt="" />
+                <img src="/icons/deploy.png" alt="" />
               </Link>
             )}
           </section>

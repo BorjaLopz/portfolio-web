@@ -7,6 +7,7 @@ import HomePage from "./Pages/HomePage";
 import Proyecto from "./Pages/Proyecto";
 import ProjectCard from "./components/ProjectCard/ProjectCard";
 import Contact from "./Pages/Contact";
+import NotFound from "./Pages/NotFound";
 import SideProjects from "./Pages/SideProjects";
 import Footer from "./Pages/Footer";
 import SideProjectsSoftware from "./Pages/SideProjectSoftware";
@@ -27,7 +28,7 @@ function App() {
 
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects/:id" element={<ProjectCard />} />
-        <Route path="/*" element={<p>404 - Pagina no encontrada</p>} />
+        <Route path="/*" element={<NotFound />} />
       </Routes>
       <Footer />
     </div>
