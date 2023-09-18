@@ -1,12 +1,22 @@
 main {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
+  display: flex; /* Establece el contenedor como un flex container */
+  flex-direction: column; /* Alinea los elementos en columna */
+  align-items: center; /* Alinea los elementos en el eje vertical en la parte superior */
+  height: 100vh; /* Establece la altura del contenedor al 100% de la ventana */
+  justify-content: start;
 }
 
-main #sideprojects-title {
-  align-self: center;
+#side-projects-section {
+  display: flex;
+  flex-direction: column;
   justify-self: start;
+  margin-top: 1rem;
+  gap: 6rem;
+  height: 100%;
+}
+
+#sideprojects-title {
+  text-align: center;
 }
 
 #links-sideprojects {
