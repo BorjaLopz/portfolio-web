@@ -16,8 +16,6 @@ function SideCardProject({ data }) {
     setElementoSeleccionado(null);
   };
 
-  data.map((d) => console.log(d.title, d.file, d.cover));
-
   return (
     <>
       <section className="projects-area">
@@ -26,7 +24,9 @@ function SideCardProject({ data }) {
             case "EJECUTABLE":
               return (
                 <article className="container-exe-text">
-                  <img src={`${d.cover}`} />
+                  <a href={`${d.file_name}`} download>
+                    <img src={`${d.cover}`} className="image_link" />
+                  </a>
                   <div id="text">
                     <h3>{d.title}</h3>
                   </div>
