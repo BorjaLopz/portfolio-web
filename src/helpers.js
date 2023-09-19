@@ -2,6 +2,7 @@
 const TYPE_OF_FILE = Object.freeze({
   IMAGE: "IMAGE",
   VIDEO: "VIDEO",
+  EJECUTABLE: "EJECUTABLE",
 });
 
 //Obtener la key de un diccionario por su value

@@ -20,7 +20,7 @@ main {
 }
 
 #links-sideprojects {
-  height: 20rem;
+  height: 30rem;
   width: 20rem;
   display: flex;
   flex-direction: column;

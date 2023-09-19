@@ -24,21 +24,21 @@ function HomePageComponente() {
               <span className="important">HTML5</span>,{" "}
               <span className="important">CSS3</span>,{" "}
               <span className="important">JavaScript</span>,{" "}
-              <span className="important">MySQL</span>,
+              <span className="important">MySQL</span>,{" "}
               <span className="important">NodeJS</span>,{" "}
               <span className="important">React</span>,{" "}
               <span className="important">Python</span> y{" "}
               <span className="important">C++</span>. También me gusta el diseño
               y suelo trabajar con adobe{" "}
-              <span className="important">Illustrator</span>, {" "}
-              <span className="important">Photoshop</span> y {" "}
+              <span className="important">Illustrator</span>,{" "}
+              <span className="important">Photoshop</span> y{" "}
               <span className="important">After Effects</span>.
             </p>
             <p>
               Me considero una persona empática, con mucha facilidad para
               trabajar en equipo, productiva, resolutiva y autónoma.
             </p>
-            <p> En mi tiempo libre me gusta seguir formándome y dibujar.</p>
+            <p>En mi tiempo libre me encanta disfrutar al aire libre y también aprender de manera autodidácta para seguir formándome.</p>
           </section>
         </article>
       </div>
