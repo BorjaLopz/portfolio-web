@@ -34,12 +34,6 @@
   transition: transform 0.3s ease-in-out;
 }
 
-.container-photo-text .image {
-  max-width: 100%;
-  padding: 2.5rem;
-  align-items: center;
-}
-
 #text {
   flex: 10;
   margin-top: auto;
@@ -51,40 +45,26 @@
 
 .image {
   flex: 90;
-  /* width: fit-content; */
-  /* height: fit-content; */
   padding: 2rem 0;
-  /* margin-bottom: auto; */
   align-self: center;
 
-  /* justify-self: center; */
-  /* width: 50%; */
   height: auto;
 
-  max-width: 50%;
+  max-width: 85%;
   max-height: 80%;
   object-fit: cover;
   align-self: center;
-
-  /* border: 1px solid red; */
 }
 
 .video {
   flex: 90;
-  /* width: fit-content; */
-  /* height: fit-content; */
   padding: 2rem 0;
-  /* margin-bottom: auto; */
   align-self: center;
 
-  /* justify-self: center; */
-  /* width: 50%; */
   height: auto;
 
-  max-width: 50%;
+  max-width: 85%;
   max-height: 80%;
   object-fit: cover;
   align-self: center;
-
-  /* border: 1px solid red; */
 }

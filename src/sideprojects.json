@@ -224,78 +224,78 @@
         "id": 1,
         "file": "video",
         "title": "EnvironmentQuerySystem",
-        "file_name": "/afterEffects/sideProjectsImages/EnvironmentQuerySystem.mp4",
-        "cover": ""
+        "file_name": "/sideProjectsImages/unrealEngine/videos/EnvironmentQuerySystem.mp4",
+        "cover": "/sideProjectsImages/unrealEngine/poster/EQS.png"
       },
       {
         "id": 2,
         "file": "video",
         "title": "Hoads",
-        "file_name": "/sideProjectsImages/unrealEngine/Hoads.mp4",
-        "cover": ""
+        "file_name": "/sideProjectsImages/unrealEngine/videos/Hoads.mp4",
+        "cover": "/sideProjectsImages/unrealEngine/poster/Hoads_Thumbnail.png"
       },
       {
         "id": 3,
         "file": "video",
         "title": "NinjaGG",
-        "file_name": "/sideProjectsImages/unrealEngine/NinjaGG.mp4",
-        "cover": ""
+        "file_name": "/sideProjectsImages/unrealEngine/videos/NinjaGG.mp4",
+        "cover": "/sideProjectsImages/unrealEngine/poster/NinjaGG.png"
       },
       {
         "id": 4,
         "file": "video",
         "title": "Pinball",
-        "file_name": "/sideProjectsImages/unrealEngine/Pinball.flv",
-        "cover": ""
+        "file_name": "/sideProjectsImages/unrealEngine/videos/Pinball.flv",
+        "cover": "/sideProjectsImages/unrealEngine/poster/Pinball.png"
       },
       {
         "id": 5,
         "file": "video",
         "title": "Pong",
-        "file_name": "/sideProjectsImages/unrealEngine/Pong.mp4",
-        "cover": "/sideProjectsImages/illustrator/Alien.png"
+        "file_name": "/sideProjectsImages/unrealEngine/videos/Pong.mp4",
+        "cover": "/sideProjectsImages/unrealEngine/poster/PingPong.png"
       },
       {
         "id": 6,
         "file": "video",
         "title": "SteeringBehaviors",
-        "file_name": "/sideProjectsImages/unrealEngine/SteeringBehaviors.mp4",
-        "cover": ""
+        "file_name": "/sideProjectsImages/unrealEngine/videos/SteeringBehaviors.mp4",
+        "cover": "/sideProjectsImages/unrealEngine/poster/SteeringBehaviors.png"
       },
       {
         "id": 7,
         "file": "video",
         "title": "TowerStack",
-        "file_name": "/sideProjectsImages/unrealEngine/TowerStack.mp4",
-        "cover": ""
+        "file_name": "/sideProjectsImages/unrealEngine/videos/TowerStack.mp4",
+        "cover": "/sideProjectsImages/unrealEngine/poster/TowerStack.png"
       },
       {
         "id": 8,
         "file": "video",
         "title": "Laberinto",
-        "file_name": "/sideProjectsImages/unrealEngine/Laberinto.mp4",
-        "cover": ""
+        "file_name": "/sideProjectsImages/unrealEngine/videos/Laberinto.mp4",
+        "cover": "/sideProjectsImages/unrealEngine/poster/Laberinto.png"
       },
       {
         "id": 9,
         "file": "video",
         "title": "MeterseCoche",
-        "file_name": "/sideProjectsImages/unrealEngine/MeterseCoche.mp4",
-        "cover": ""
+        "file_name": "/sideProjectsImages/unrealEngine/videos/MeterseCoche.mp4",
+        "cover": "/sideProjectsImages/unrealEngine/poster/MeterseEnCoche.png"
       },
       {
         "id": 10,
         "file": "video",
         "title": "Spaceship",
-        "file_name": "/sideProjectsImages/unrealEngine/Spaceship.mp4",
-        "cover": ""
+        "file_name": "/sideProjectsImages/unrealEngine/videos/Spaceship.mp4",
+        "cover": "/sideProjectsImages/unrealEngine/poster/Spaceship.png"
       },
       {
         "id": 11,
         "file": "video",
         "title": "Substance Plugin",
-        "file_name": "/sideProjectsImages/unrealEngine/Substance Plugin.mp4",
-        "cover": ""
+        "file_name": "/sideProjectsImages/unrealEngine/videos/Substance Plugin.mp4",
+        "cover": "/sideProjectsImages/unrealEngine/poster/SubstancePlugin.png"
       }
     ]
   },
@@ -305,30 +305,117 @@
       {
         "id": 1,
         "file": "video",
-        "title": "Glitch",
-        "file_name": "/afterEffects/sideProjectsImages/Glitch.mp4",
-        "cover": "/afterEffects/sideProjectsImages/Glitch.mp4"
+        "title": "Juego 1D",
+        "file_name": "/sideProjectsImages/cpp/videos/Juego1D.mp4",
+        "cover": "/sideProjectsImages/cpp/poster/Juego1D.png"
       },
       {
         "id": 2,
         "file": "video",
-        "title": "KnorKys TodoALaVez",
-        "file_name": "/afterEffects/sideProjectsImages/KnorKys TodoALaVez.mp4",
-        "cover": "/afterEffects/sideProjectsImages/KnorKys TodoALaVez.mp4"
+        "title": "Pathfinding",
+        "file_name": "/sideProjectsImages/cpp/videos/Pathfinding.mp4",
+        "cover": "/sideProjectsImages/cpp/poster/Pathfinding.png"
       },
       {
         "id": 3,
         "file": "video",
         "title": "MotionGraphics_HP",
-        "file_name": "/afterEffects/sideProjectsImages/MotionGraphics_HP.mp4",
-        "cover": "/afterEffects/sideProjectsImages/MotionGraphics_HP.mp4"
+        "file_name": "/sideProjectsImages/cpp/videos/Pathfinding_2.mp4",
+        "cover": "/sideProjectsImages/cpp/poster/Pathfinding_2.png"
+      }
+    ]
+  },
+  {
+    "software": "juegos",
+    "data": [
+      {
+        "id": 1,
+        "file": "ejecutable",
+        "title": "Connect 4",
+        "file_name": "/sideProjectsImages/descargas/juegos/ejecutables/Connect4.exe",
+        "cover": "/sideProjectsImages/descargas/juegos/poster/Connect4.png"
+      },
+      {
+        "id": 2,
+        "file": "ejecutable",
+        "title": "Piedra, papel o tijera",
+        "file_name": "/sideProjectsImages/descargas/juegos/ejecutables/PiedraPapelTijeras.exe",
+        "cover": "/sideProjectsImages/descargas/juegos/poster/PiedraPapelTijeras.png"
+      },
+      {
+        "id": 3,
+        "file": "ejecutable",
+        "title": "Pintar figuras con asteriscos",
+        "file_name": "/sideProjectsImages/descargas/juegos/ejecutables/PintarFigurasConAsteriscos.exe",
+        "cover": "/sideProjectsImages/descargas/juegos/poster/PintarFigurasConAsteriscos.png"
       },
       {
         "id": 4,
-        "file": "video",
-        "title": "Tierra_HUD",
-        "file_name": "/afterEffects/sideProjectsImages/Tierra_HUD.mp4",
-        "cover": "/afterEffects/sideProjectsImages/Tierra_HUD.mp4"
+        "file": "ejecutable",
+        "title": "Correr | Saltar",
+        "file_name": "/sideProjectsImages/descargas/juegos/ejecutables/Run_Jump.exe",
+        "cover": "/sideProjectsImages/descargas/juegos/poster/Run_Jump.png"
+      }
+    ]
+  },
+  {
+    "software": "aplicaciones",
+    "data": [
+      {
+        "id": 1,
+        "file": "ejecutable",
+        "title": "Calculadora | interfaz",
+        "file_name": "/sideProjectsImages/descargas/apps/ejecutables/Calculadora_Interfaz.exe",
+        "cover": "/sideProjectsImages/descargas/apps/poster/Connect4.png"
+      },
+      {
+        "id": 2,
+        "file": "ejecutable",
+        "title": "Calculadora entre fechas | Interfaz",
+        "file_name": "/sideProjectsImages/descargas/apps/ejecutables/CalculadoraFechas_Interfaz.exe",
+        "cover": "/sideProjectsImages/descargas/apps/poster/Connect4.png"
+      },
+      {
+        "id": 3,
+        "file": "ejecutable",
+        "title": "Decimal | Binario",
+        "file_name": "/sideProjectsImages/descargas/apps/ejecutables/CalculadoraDecimalBinario.exe",
+        "cover": "/sideProjectsImages/descargas/apps/poster/CalculadoraDecimalBinario.png"
+      },
+      {
+        "id": 4,
+        "file": "ejecutable",
+        "title": "Vectores Ortogonales",
+        "file_name": "/sideProjectsImages/descargas/apps/ejecutables/CalculadoraDeVectoresOrtogonales.exe",
+        "cover": "/sideProjectsImages/descargas/apps/poster/CalculadoraVectoresOrtogonales.png"
+      },
+      {
+        "id": 5,
+        "file": "ejecutable",
+        "title": "Calculadora entre fechas",
+        "file_name": "/sideProjectsImages/descargas/apps/ejecutables/CalculadoraDiasEntreFechas.exe",
+        "cover": "/sideProjectsImages/descargas/apps/poster/CalculadoraDeDiasEntreFechas.png"
+      },
+      {
+        "id": 6,
+        "file": "ejecutable",
+        "title": "Calculadora Area figuras",
+        "file_name": "/sideProjectsImages/descargas/apps/ejecutables/CalculadoraAreaFiguras.exe",
+        "cover": "/sideProjectsImages/descargas/apps/poster/CalculadoraDeAreas.png"
+      },
+      {
+        "id": 7,
+        "file": "ejecutable",
+        "title": "Frases con asteriscos",
+        "file_name": "/sideProjectsImages/descargas/apps/ejecutables/FraseConAsteriscos.exe",
+        "cover": "/sideProjectsImages/descargas/apps/poster/EncuadrarFrases.png"
+      },
+      {
+        "id": 8,
+        "file": "ejecutable",
+        "title": "Serie de Fibonacci",
+        "file_name": "/sideProjectsImages/descargas/apps/ejecutables/SerieDeFibonacci.exe",
+        "cover": "/sideProjectsImages/descargas/apps/poster/SerieFibonacci.png"
       }
     ]
   }

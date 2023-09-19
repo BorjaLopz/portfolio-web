@@ -16,30 +16,55 @@ function SideCardProject({ data }) {
     setElementoSeleccionado(null);
   };
 
+  data.map((d) => console.log(d.title, d.file, d.cover));
+
   return (
     <>
-      <section class="projects-area">
+      <section className="projects-area">
         {data.map((d) => {
-          return (
-            // <Link to={`../${location.pathname}/${d.title}`}>
-            <article
-              key={`${d.id}`}
-              onClick={() => handleClick(d)}
-              class="container-photo-text"
-              // className={`${d.id === elementoSeleccionado ? "activado" : ""}`}
-            >
-              {getKeyByValue(TYPE_OF_FILE, d.file.toUpperCase()) ===
-              "IMAGE" ? (
-                <img src={`${d.file_name}`} className="image" />
-              ) : (
-                <video src={`${d.file_name}`} className="video" poster={`${d.cover}`}></video>
-              )}
-              <div id="text">
-                <h3>{d.title}</h3>
-              </div>
-            </article>
-            // </Link>
-          );
+          switch (d.file.toUpperCase()) {
+            case "EJECUTABLE":
+              return (
+                <article className="container-exe-text">
+                  <img src={`${d.cover}`} />
+                  <div id="text">
+                    <h3>{d.title}</h3>
+                  </div>
+                </article>
+              );
+            case "IMAGE":
+              return (
+                <article
+                  key={`${d.id}`}
+                  onClick={() => handleClick(d)}
+                  className="container-photo-text"
+                  // className={`${d.id === elementoSeleccionado ? "activado" : ""}`}
+                >
+                  <img src={`${d.file_name}`} className="image" />
+                  <div id="text">
+                    <h3>{d.title}</h3>
+                  </div>
+                </article>
+              );
+            case "VIDEO":
+              return (
+                <article
+                  key={`${d.id}`}
+                  onClick={() => handleClick(d)}
+                  className="container-photo-text"
+                  // className={`${d.id === elementoSeleccionado ? "activado" : ""}`}
+                >
+                  <video
+                    src={`${d.file_name}`}
+                    className="video"
+                    poster={`${d.cover}`}
+                  ></video>
+                  <div id="text">
+                    <h3>{d.title}</h3>
+                  </div>
+                </article>
+              );
+          }
         })}
       </section>
 

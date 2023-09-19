@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import proyectos from "/src/proyectos.json";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
@@ -7,16 +7,25 @@ import "./style.css";
 function ProjectCard({ project }) {
   const { id } = useParams();
   const [currentProject, setCurrentProject] = useState({});
-  // console.log(proyectos);
+  const navigate = useNavigate();
+
+  const idNumber = parseInt(id, 10);
 
   const getCurrentProject = () => {
     for (const p in proyectos) {
-      if (proyectos[p].id == id) {
+      if (proyectos[p].id === idNumber) {
         setCurrentProject(proyectos[p]);
       }
     }
+
+    console.log(Object.keys(currentProject).length);
+    // if (Object.keys(currentProject).length === 0) {
+    //   navigate("/404");
+    // }
   };
 
+  console.log("currentProject");
+  console.log(currentProject);
   // console.log(currentProject.technology);
 
   useEffect(() => {
