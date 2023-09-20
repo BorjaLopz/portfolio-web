@@ -333,28 +333,32 @@
         "file": "ejecutable",
         "title": "Connect 4",
         "file_name": "/sideProjectsImages/descargas/juegos/ejecutables/Connect4.exe",
-        "cover": "/sideProjectsImages/descargas/juegos/poster/Connect4.png"
+        "cover": "/sideProjectsImages/descargas/juegos/poster/Connect4.png",
+        "description": "Pequeño juego sin interfaz para dos jugadores. Tendremos que conectar 4 casillas iguales seguidas horizontal, vertical o diagonalmente."
       },
       {
         "id": 2,
         "file": "ejecutable",
         "title": "Piedra, papel o tijera",
         "file_name": "/sideProjectsImages/descargas/juegos/ejecutables/PiedraPapelTijeras.exe",
-        "cover": "/sideProjectsImages/descargas/juegos/poster/PiedraPapelTijeras.png"
+        "cover": "/sideProjectsImages/descargas/juegos/poster/PiedraPapelTijeras.png",
+        "description": "Clasico juego de piedra papel o tijera. Introducimos la cantidad de rondas que queremos jugar y podremos comenzar la partida. "
       },
       {
         "id": 3,
         "file": "ejecutable",
         "title": "Pintar figuras con asteriscos",
         "file_name": "/sideProjectsImages/descargas/juegos/ejecutables/PintarFigurasConAsteriscos.exe",
-        "cover": "/sideProjectsImages/descargas/juegos/poster/PintarFigurasConAsteriscos.png"
+        "cover": "/sideProjectsImages/descargas/juegos/poster/PintarFigurasConAsteriscos.png",
+        "description": "Introducimos la longitud del lado de la figura. Introducimos que figura queremos que dibuje y por último seleccionamos la forma que queremos que tenga. El programa nos mostrará dicha figura con el lado que le introdujimos anteriormente."
       },
       {
         "id": 4,
         "file": "ejecutable",
         "title": "Correr | Saltar",
         "file_name": "/sideProjectsImages/descargas/juegos/ejecutables/Run_Jump.exe",
-        "cover": "/sideProjectsImages/descargas/juegos/poster/Run_Jump.png"
+        "cover": "/sideProjectsImages/descargas/juegos/poster/Run_Jump.png",
+        "description": "En este juego tenemos que evitar los obstáculos ( | ) saltando y tendremos que correr cuando estemos en el suelo ( _ ). El juego terminará llegando a la meta ( # ). "
       }
     ]
   },
@@ -366,56 +370,64 @@
         "file": "ejecutable",
         "title": "Calculadora | interfaz",
         "file_name": "/sideProjectsImages/descargas/apps/ejecutables/Calculadora_Interfaz.exe",
-        "cover": "/sideProjectsImages/descargas/apps/poster/Calculadora_Interfaz.png"
+        "cover": "/sideProjectsImages/descargas/apps/poster/Calculadora_Interfaz.png",
+        "description": "Calculadora funcional con interfaz hecha con C++"
       },
       {
         "id": 2,
         "file": "ejecutable",
         "title": "Calculadora entre fechas | Interfaz",
         "file_name": "/sideProjectsImages/descargas/apps/ejecutables/CalculadoraFechas_Interfaz.exe",
-        "cover": "/sideProjectsImages/descargas/apps/poster/CalculadoraDeDiasEntreFechas_Interfaz.png"
+        "cover": "/sideProjectsImages/descargas/apps/poster/CalculadoraDeDiasEntreFechas_Interfaz.png",
+        "description": "Calculadora de días entre fechas con interfaz. Introducimos dos fechas, comprobará si son fechas validas y te dará el resultado en días. Este proyecto esta hecho con C++"
       },
       {
         "id": 3,
         "file": "ejecutable",
         "title": "Decimal | Binario",
         "file_name": "/sideProjectsImages/descargas/apps/ejecutables/CalculadoraDecimalBinario.exe",
-        "cover": "/sideProjectsImages/descargas/apps/poster/CalculadoraDecimalBinario.png"
+        "cover": "/sideProjectsImages/descargas/apps/poster/CalculadoraDecimalBinario.png",
+        "description": "Calculadora simple que convierte de decimal a binario y viceversa."
       },
       {
         "id": 4,
         "file": "ejecutable",
         "title": "Vectores Ortogonales",
         "file_name": "/sideProjectsImages/descargas/apps/ejecutables/CalculadoraDeVectoresOrtogonales.exe",
-        "cover": "/sideProjectsImages/descargas/apps/poster/CalculadoraVectoresOrtogonales.png"
+        "cover": "/sideProjectsImages/descargas/apps/poster/CalculadoraVectoresOrtogonales.png",
+        "description": "Comprueba si dos vectores dados por el usuario son ortogonales.\n |Dos vectores son ortogonales si su producto escalar es cero|"
       },
       {
         "id": 5,
         "file": "ejecutable",
         "title": "Calculadora entre fechas",
         "file_name": "/sideProjectsImages/descargas/apps/ejecutables/CalculadoraDiasEntreFechas.exe",
-        "cover": "/sideProjectsImages/descargas/apps/poster/CalculadoraDeDiasEntreFechas.png"
+        "cover": "/sideProjectsImages/descargas/apps/poster/CalculadoraDeDiasEntreFechas.png",
+        "description": "Calculadora de días entre fechas. Introducimos dos fechas, comprobará si son fechas validas y te dará el resultado en días. Este proyecto esta hecho con C++"
       },
       {
         "id": 6,
         "file": "ejecutable",
         "title": "Calculadora Area figuras",
         "file_name": "/sideProjectsImages/descargas/apps/ejecutables/CalculadoraAreaFiguras.exe",
-        "cover": "/sideProjectsImages/descargas/apps/poster/CalculadoraDeAreas.png"
+        "cover": "/sideProjectsImages/descargas/apps/poster/CalculadoraDeAreas.png",
+        "description": "Calculadora de areas de figuras. Introducimos la figura que queremos calcular su area y nos pedirá sus datos."
       },
       {
         "id": 7,
         "file": "ejecutable",
         "title": "Frases con asteriscos",
         "file_name": "/sideProjectsImages/descargas/apps/ejecutables/FraseConAsteriscos.exe",
-        "cover": "/sideProjectsImages/descargas/apps/poster/EncuadrarFrases.png"
+        "cover": "/sideProjectsImages/descargas/apps/poster/EncuadrarFrases.png",
+        "description": "Introducimos una frase cualquiera y nos sacará la frase separada por palabras y encuadrada con asteriscos"
       },
       {
         "id": 8,
         "file": "ejecutable",
         "title": "Serie de Fibonacci",
         "file_name": "/sideProjectsImages/descargas/apps/ejecutables/SerieDeFibonacci.exe",
-        "cover": "/sideProjectsImages/descargas/apps/poster/SerieFibonacci.png"
+        "cover": "/sideProjectsImages/descargas/apps/poster/SerieFibonacci.png",
+        "description": "Sacará por pantalla la cantidad de números de la serie de Fibonacci que le introduzcamos por teclado. "
       }
     ]
   }

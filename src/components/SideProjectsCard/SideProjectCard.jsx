@@ -23,10 +23,21 @@ function SideCardProject({ data }) {
           switch (d.file.toUpperCase()) {
             case "EJECUTABLE":
               return (
-                <article className="container-exe-text">
-                  <a href={`${d.file_name}`} download>
-                    <img src={`${d.cover}`} className="image_link" />
-                  </a>
+                // <article className="container-exe-text">
+                //   <a href={`${d.file_name}`} download>
+                //     <img src={`${d.cover}`} className="image_link" />
+                //   </a>
+                //   <div id="text">
+                //     <h3>{d.title}</h3>
+                //   </div>
+                // </article>
+                <article
+                  key={`${d.id}`}
+                  onClick={() => handleClick(d)}
+                  className="container-photo-text exe"
+                  // className={`${d.id === elementoSeleccionado ? "activado" : ""}`}
+                >
+                  <img src={`${d.cover}`} className="image" />
                   <div id="text">
                     <h3>{d.title}</h3>
                   </div>
