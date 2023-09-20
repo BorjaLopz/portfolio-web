@@ -17,7 +17,8 @@ function ProjectCard({ project }) {
         setCurrentProject(proyectos[p]);
       }
     }
-
+    console.log("currentProject");
+    console.log(currentProject);
     console.log(Object.keys(currentProject).length);
     // if (Object.keys(currentProject).length === 0) {
     //   navigate("/404");

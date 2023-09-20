@@ -33,14 +33,14 @@
   object-fit: cover;
 }
 
-.expanded-article #article-data {
+.expanded-article #article-data,
+.expanded-article #article-exe {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
 }
 
-
-.expanded-article #text {
+.expanded-article #text-container {
   background: rgba(255, 255, 255, 0.4);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
 
@@ -48,10 +48,13 @@
 }
 
 #button-container {
-  width: 40%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
-#button-container button {
+#button-container .atras-button {
   width: 100%;
   height: 2rem;
 
@@ -67,8 +70,28 @@
   letter-spacing: 0.3rem;
 }
 
-#button-container button:hover {
+#button-container #download-button {
+  width: 100%;
+  height: 2rem;
+
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgb(0, 255, 34);
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+}
+
+#button-container .atras-button:hover {
   background-color: rgb(141, 0, 0);
+}
+
+#button-container #download-button:hover {
+  background-color: rgb(6, 94, 18);
 }
 
 .video_expanded {
@@ -79,4 +102,17 @@
 .data-button video {
   max-width: 35rem;
   object-fit: cover;
+}
+
+#text-container h3,
+#text-container h4 {
+  flex: 10;
+  margin-top: auto;
+  text-align: center;
+  padding: 10px;
+}
+
+#text-container h3 {
+  letter-spacing: 0.25rem;
+  text-transform: uppercase;
 }
