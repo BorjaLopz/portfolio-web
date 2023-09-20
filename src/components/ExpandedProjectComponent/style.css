@@ -37,7 +37,12 @@
 .expanded-article #article-exe {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 1.5rem;
+}
+
+#article-exe img {
+  width: 100%;
 }
 
 .expanded-article #text-container {
