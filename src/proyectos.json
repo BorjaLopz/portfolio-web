@@ -42,5 +42,14 @@
     "technology": ["JavaScript", "CSS", "HTML"],
     "github": "https://github.com/BorjaLopz/Real-Time-Chat",
     "description": "Mini proyecto aprendiendo web sockets. "
+  },
+  {
+    "id": 6,
+    "title": "Conversor de monedas",
+    "image": "/images/Currency-Converter.png",
+    "technology": ["JavaScript", "CSS", "HTML", "React", "API"],
+    "github": "https://github.com/BorjaLopz/Currency-Converter",
+    "deploy": "https://borja-currency-converter.netlify.app/",
+    "description": "Aplicación que permite calcular el tipo de cambio entre diferentes divisas en tiempo real."
   }
 ]
