@@ -51,5 +51,14 @@
     "github": "https://github.com/BorjaLopz/Currency-Converter",
     "deploy": "https://borja-currency-converter.netlify.app/",
     "description": "Aplicación que permite calcular el tipo de cambio entre diferentes divisas en tiempo real."
+  },
+  {
+    "id": 7,
+    "title": "Diccionario",
+    "image": "/images/Diccionary.png",
+    "technology": ["JavaScript", "CSS", "HTML", "React", "API"],
+    "github": "https://github.com/BorjaLopz/Diccionary",
+    "deploy": "https://borja-diccionary.netlify.app/",
+    "description": "Aplicación que permite buscar cualquier palabra del diccionario y nos muestra sus significados."
   }
 ]
