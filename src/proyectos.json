@@ -60,5 +60,14 @@
     "github": "https://github.com/BorjaLopz/Diccionary",
     "deploy": "https://borja-diccionary.netlify.app/",
     "description": "Aplicación que permite buscar cualquier palabra del diccionario y nos muestra sus significados."
+  },
+  {
+    "id": 8,
+    "title": "Tic Tac Toe",
+    "image": "/images/Tic-Tac-Toe.png",
+    "technology": ["JavaScript", "CSS", "HTML", "React"],
+    "github": "https://github.com/BorjaLopz/tic-tac-toe",
+    "deploy": "https://borja-tic-tac-toe.netlify.app/",
+    "description": "Pequeño juego de tres en raya."
   }
 ]
