@@ -69,5 +69,14 @@
     "github": "https://github.com/BorjaLopz/tic-tac-toe",
     "deploy": "https://borja-tic-tac-toe.netlify.app/",
     "description": "Pequeño juego de tres en raya."
+  },
+  {
+    "id": 9,
+    "title": "Neflis",
+    "image": "/images/Neflis.png",
+    "technology": ["JavaScript", "APIs", "React"],
+    "github": "https://github.com/BorjaLopz/movie-app",
+    "deploy": "https://borja-neflis.netlify.app/",
+    "description": "Aplicación que nos permite ver y filtrar películas. En el futuro podremos ver series, incluso tener nuestra propia cuenta para poder tener un seguimiento de peliculas que queremos ver o un listado de nuestras peliculas favoritas."
   }
 ]
